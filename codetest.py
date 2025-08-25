@@ -6,7 +6,7 @@ from datetime import datetime
 # Authenticate (credentials.json must be in the same folder)
 gmail = Gmail(r'C:\Users\srija\OneDrive\Desktop\Project\gmail\client_secret.json')
 
-# Example: Get all unread messages
+
 messages = gmail.get_unread_inbox()
 body = []
 subject = []
@@ -160,3 +160,4 @@ print(time)'''
 
 
      
+
